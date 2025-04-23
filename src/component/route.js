@@ -39,7 +39,7 @@ const scrollToabout = () => {
                 <Routes>
 
                     {/* <Route exact path='/' element={<Home workRef={workRef} qnRef={qnRef} serviceRef={serviceRef} />} /> */}
-                    <Route exact path='/' element={<Home newef={newef} aboutkRef={aboutkRef} contactkRef={contactkRef} serviceRef={serviceRef}  />} />
+                    <Route exact path='/home' element={<Home newef={newef} aboutkRef={aboutkRef} contactkRef={contactkRef} serviceRef={serviceRef}  />} />
 
 
                 </Routes>
