@@ -12,7 +12,7 @@ export default function Rajaheader(props) {
                             <div className="col-lg-3 col-md-3 col-xs-12">
                                 <div className="logo">
                                     <a
-                                        href="/home"
+                                        href="/egov/"
                                         title="Go to home"
                                         className="site_logo"
                                         rel="home"
@@ -120,7 +120,7 @@ export default function Rajaheader(props) {
                                     id="menu-item-9329"
                                     className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-9329 active "
                                 >
-                                    <a style={{color:" #6a5de6",fontSize:"20px",fontWeight:"600"}} href="/home">Home</a>
+                                    <a style={{color:" #6a5de6",fontSize:"20px",fontWeight:"600"}} href="/egov/">Home</a>
                                 </li>
                                 <li
                                     id="menu-item-4982"
