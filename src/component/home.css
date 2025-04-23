@@ -1,0 +1,357 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+}
+
+section h1, section h2 {
+    color: #003366;
+}
+.newall{
+
+    background-color: #eae8f5;
+    display: grid;
+    gap: 1rem;
+    padding: 1.25rem 0 4rem;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+}
+
+.abous{
+    display: grid;
+    gap: 10rem;
+    padding: 1.25rem 0 4rem;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+}
+
+
+
+
+.equal-height {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.equal-height > [class^='col-'], .equal-height > .equal-height-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.products-card {
+    background-color: #fff;
+    width: 100%;
+    border: 1px solid #eeebfa;
+    border-top: 5px solid #8B70DB;
+    border-radius: 20px;
+    box-shadow: 6px 10px 10px -3px rgba(0, 0, 0, 0.1);
+    min-height: 350px;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+ .products-card .productsListing:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #EEEBFA;
+    height: 135px;
+}
+
+
+.product-card-outer .products-card .productsListing .productsImage {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+    width: 170px;
+    height: 170px;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid #eeebfa;
+    overflow: hidden;
+    box-shadow: 10px 5px 5px -5px rgba(0, 0, 0, 0.478);
+}
+.products-card .productsListing .productsImage img {
+    max-width: inherit;
+    max-height: 105px;
+}
+.products-card .productsListing .productsContent {
+    padding: 0 15px;
+    text-align: center;
+}
+.productsContenth2 {
+    font-size: 1.25em;
+    margin: 0 0 20px;
+}
+.productsContent h2 {
+    color: #373d44;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 15px 0;
+    font-weight: 600;
+}
+.page-template-default h2 {
+    margin: 0 0 12px;
+}
+ .products-card .read-more {
+    color: #29136C;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #EEEBFA;
+    font-weight: 500;
+}
+.products-card .read-more:hover{
+    color: #EEEBFA;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #29136C;
+    font-weight: 500;
+}
+.style-1 a {
+    color: #29136C;
+}
+
+.wpb-content-wrapper {
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: unset;
+    display: block;
+}
+.vc_row.vc_row-flex {
+    box-sizing: border-box;
+    display: flex
+;
+    flex-wrap: wrap;
+}
+
+.vc_custom_1730790863676 {
+    margin-top: 15px !important;
+}
+.vc_row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.vc_row.vc_row-o-equal-height>.vc_column_container {
+    align-items: stretch;
+}
+.vc_row.vc_row-o-equal-height>.vc_column_container {
+    align-items: stretch;
+}
+.vc_row.vc_row-flex>.vc_column_container {
+    display: flex
+;
+}
+.vc_column_container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.vc_row.vc_row-flex>.vc_column_container>.vc_column-inner {
+    flex-grow: 1;
+    display: flex
+;
+    flex-direction: column;
+    z-index: 1;
+}
+.box-shadow.vc_column_container>.vc_column-inner {
+    box-shadow: 6px 10px 10px -3px rgba(0, 0, 0, 0.1);
+}
+.box-shadow.vc_column_container > .vc_column-inner {
+    box-shadow: 6px 10px 10px -3px rgba(0, 0, 0, 0.1);
+}
+.vc_col-has-fill>.vc_column-inner, .vc_row-has-fill+.vc_row-full-width+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill>.vc_column_container>.vc_column-inner {
+    padding-top: 35px;
+}
+.vc_column_container>.vc_column-inner {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+.vc_custom_1731393894662 {
+    margin-top: 13px !important;
+    margin-right: 15px !important;
+    margin-bottom: 15px !important;
+    margin-left: 15px !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    padding-top: 20px !important;
+    border-left-color: #e8e8e8 !important;
+    border-left-style: solid !important;
+    border-right-color: #e8e8e8 !important;
+    border-right-style: solid !important;
+    border-top-color: #e8e8e8 !important;
+    border-top-style: solid !important;
+    border-bottom-color: #e8e8e8 !important;
+    border-bottom-style: solid !important;
+    border-radius: 10px !important;
+}
+.wpb_wrapper {
+    margin: 0 -15px;
+}
+.wpb_text_column.wpb_content_element {
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+.vc_custom_1743049752156 {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+    margin-bottom: 35px;
+}
+.wpb_wrapper {
+    margin: 0 -15px;
+}
+.box, .newsBox {
+    padding: 20px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+.mr-bottom-none {
+    margin-bottom: 0 !important;
+}
+.mr-top-none {
+    margin-top: 0 !important;
+}
+.contactline {
+    margin-bottom: 25px;
+}
+.contact-icon {
+    width: 33px;
+}
+vc_row.vc_row-o-equal-height>.vc_column_container {
+    align-items: stretch;
+}
+.vc_row.vc_row-o-equal-height>.vc_column_container {
+    align-items: stretch;
+}
+.vc_row.vc_row-flex>.vc_column_container {
+    display: flex
+;
+}
+.vc_column_container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.box-shadow.vc_column_container > .vc_column-inner {
+    box-shadow: 6px 10px 10px -3px rgba(0, 0, 0, 0.1);
+}
+.vc_col-has-fill>.vc_column-inner, .vc_row-has-fill+.vc_row-full-width+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill+.vc_row>.vc_column_container>.vc_column-inner, .vc_row-has-fill>.vc_column_container>.vc_column-inner {
+    padding-top: 35px;
+}
+.vc_column_container>.vc_column-inner {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+.vc_custom_1731394029224 {
+    margin-top: 13px !important;
+    margin-right: 15px !important;
+    margin-bottom: 15px !important;
+    margin-left: 15px !important;
+    border-top-width: 1px !important;
+    border-right-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    padding-top: 0px !important;
+    background-position: 0 0 !important;
+    background-repeat: no-repeat !important;
+    border-left-color: #e2e2e2 !important;
+    border-left-style: solid !important;
+    border-right-color: #e2e2e2 !important;
+    border-right-style: solid !important;
+    border-top-color: #e2e2e2 !important;
+    border-top-style: solid !important;
+    border-bottom-color: #e2e2e2 !important;
+    border-bottom-style: solid !important;
+    border-radius: 10px !important;
+}
+.wpb_text_column.wpb_content_element {
+    padding: 0 30px;
+    margin-bottom: 20px;
+}
+.vc_custom_1731394092849 {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+    margin-bottom: 35px;
+}
+.border-radius2 {
+    border-radius: 10px;
+}
+.box, .newsBox {
+    padding: 20px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+h5, .heading5 {
+    font-size: 1.1em;
+}
+p:last-child {
+    margin: 0;
+}
+.contact .row {
+    justify-content: space-evenly;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.servicedesk-img {
+    margin: 0 0 0 auto !important;
+    max-width: 150px;
+}
+.mr-top15 {
+    margin-top: 15px !important;
+}
+
+@media (max-width:760px){
+    .abous{
+        display: grid;
+        gap: 1rem;
+        padding: 1.25rem 0 4rem;
+        grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    }
+    .newall{
+        
+        margin: 0 3rem;
+        background-color: #eae8f5;
+        display: grid;
+        gap: 1rem;
+        padding: 1.25rem 0 4rem;
+        grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    }
+    .card{
+        width: 100%;
+    }
+   
+}

@@ -1,0 +1,130 @@
+.mainFooter {
+    background-color: #29136C;
+    padding: 40px 0;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.footer-links {
+    position: relative;
+    min-height: 260px;
+}
+.footer-links ul {
+    display: block;
+    column-count: 2;
+}
+.links {
+    column-count: 2;
+    column-gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+.footer-links ul li {
+    position: relative;
+    padding-left: 20px;
+}
+.footer-links ul li a {
+    display: block;
+    padding: 5px 0;
+}
+.links li a {
+    color: #fff;
+    text-decoration: none;
+}
+.links li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    list-style: none;
+    padding-bottom: 0;
+}
+ul li {
+    padding-bottom: 15px;
+    list-style-type: initial;
+    font-weight: 400;
+    padding-left: 0px;
+}
+.footer-links ul li a {
+    display: block;
+    padding: 5px 0;
+}
+.mid-footer {
+    position: relative;
+    padding-top: 55px;
+    min-height: 285px;
+    font-size: 0.91em;
+}
+.mid-footer {
+    padding-top: 3.8rem;
+}
+p:last-child {
+    margin: 0;
+}
+
+.light-grey {
+    color: #d3d3d3;
+}
+.mainFooter .col-12:last-child {
+    border-right: none;
+}
+.social-section {
+    padding-top: 55px;
+    min-height: 285px;
+}
+.social-inner .footerSocial-wrap .swaas-logo {
+    display: block;
+    margin-bottom: 55px;
+}
+.style-1 a {
+    color: #29136C;
+}
+a {
+    color: black;
+}
+a, button {
+    cursor: pointer;
+}
+.social-section .footer-swaas {
+    display: block;
+}
+a img {
+    border: 0;
+}
+h4, .heading4 {
+    font-size: 1.3em;
+}
+.social-inner ul li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+}
+.social-inner ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: 0.2s ease-in-out;
+}
+.social-inner ul li a svg.x {
+    width: 18px;
+    height: 18px;
+}
+
+.social-inner ul li a svg {
+    fill: #fff;
+    width: 24px;
+    height: 24px;
+}
+.footer-links ul li:before {
+    content: '\e903';
+    font-family: 'icomoon' !important;
+    position: absolute;
+    left: 0;
+    font-size: 12px;
+    color: #fff;
+}
