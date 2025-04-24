@@ -4,7 +4,7 @@ import "../component/home.css"
 import FeCarousel from '../extra/carousel'
 
 export default function Home(props) {
-  const {newef, aboutkRef, contactkRef, serviceRef}=props
+  const { newef, aboutkRef, contactkRef, serviceRef } = props
   const products = [
     {
       title: "Data Centre",
@@ -114,44 +114,44 @@ export default function Home(props) {
       <section id="news" ref={newef} className="news">
         <h2>What's New</h2>
         <div>
-        <div className="newall">
-      {newsCards.map((card, index) => (
-        <div className="card" style={{ width: "20rem" }} key={index}>
-          <img src={card.image} className="card-img-top" alt="News item" />
-          <div className="card-body">
-            <div className="date-title">
-              <p>{card.date}</p>
-            </div>
-            <p className="card-text">{card.text}</p>
-          </div>
-        </div>
-      ))}
-    </div>        </div>
+          <div className="newall">
+            {newsCards.map((card, index) => (
+              <div className="card" style={{ width: "20rem" }} key={index}>
+                <img src={card.image} className="card-img-top" alt="News item" />
+                <div className="card-body">
+                  <div className="date-title">
+                    <p>{card.date}</p>
+                  </div>
+                  <p className="card-text">{card.text}</p>
+                </div>
+              </div>
+            ))}
+          </div>        </div>
       </section>
       <section id="services" ref={serviceRef} className="services">
         <h2>Services</h2>
         <h3>Our core services towards a Digital Nation</h3>
         <p>NIC is closely associated with the government in different aspects of governance by establishing a nationwide state-of-the-art ICT infrastructure and services for Central Government, State Governments, UT Administrations, Districts and other Government bodies. It offers a wide range of services which includes multi gigabit nationwide networks NICNET, NKN, National Data Centres, National Cloud, pan India VC infrastructure, Command and Control Centre, multi-layered GIS based platform, Domain Registration and Webcast. This plays a significant role in delivering citizen centric e-services.</p>
         <div>
-        <div className="row equal-height">
-      {products.map((product, index) => (
-        <div className="col-md-3 product-card-outer" key={index}>
-          <div className="products-card">
-            <div className="productsListing">
-              <div className="productsImage">
-                <img decoding="async" src={product.image} alt={product.title} />
+          <div className="row equal-height">
+            {products.map((product, index) => (
+              <div className="col-md-3 product-card-outer" key={index}>
+                <div className="products-card">
+                  <div className="productsListing">
+                    <div className="productsImage">
+                      <img decoding="async" src={product.image} alt={product.title} />
+                    </div>
+                    <div className="productsContent">
+                      <h2>{product.title}</h2>
+                    </div>
+                    <a href={product.link} className="read-more">
+                      Read More{" "}
+                    </a>
+                  </div>
+                </div>
               </div>
-              <div className="productsContent">
-                <h2>{product.title}</h2>
-              </div>
-              <a href={product.link} className="read-more">
-                Read More{" "}
-              </a>
-            </div>
+            ))}
           </div>
-        </div>
-      ))}
-    </div>
 
         </div>
       </section>
@@ -163,7 +163,7 @@ export default function Home(props) {
           <li>Open Data Initiatives</li>
         </ul>
       </section> */}
-            <section id="about" ref={aboutkRef} className="about">
+      <section id="about" ref={aboutkRef} className="about">
         <h2>About Us </h2>
         <div className='abous'>
           <div>
@@ -224,7 +224,7 @@ export default function Home(props) {
                               />
                               National Informatics Centre
                               <br />
-                             Lokanthali-4
+                              Lokanthali-4
                               <br />
                               Bhaktapur
                             </p>
@@ -254,7 +254,7 @@ export default function Home(props) {
                     </div>
                   </div>
                 </div>
-                {/* <div className="box-shadow wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill">
+                <div className="box-shadow wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill">
                   <div className="vc_column-inner vc_custom_1731394029224">
                     <div className="wpb_wrapper">
                       <div className="wpb_text_column wpb_content_element  vc_custom_1731394092849">
@@ -262,72 +262,48 @@ export default function Home(props) {
                           <div className="box border-radius2">
                             <p className="heading5">
                               <strong>
-                                Kindly login to Service Desk Web portal or call the toll
-                                free no to register your concern
+                                Feedback Form
                               </strong>
                             </p>
                             <div className="d-flex nic-service-desk-wrap">
-                              <p className="d-flex heading5">
-                                <img
-                                  decoding="async"
-                                  className="contact-icon"
-                                  src="https://cdnbbsr.s3waas.gov.in/s3dcf6070a4ab7f3afbfd2809173e0824b/uploads/2024/10/202410221027496352.svg"
-                                  alt="icon"
-                                  aria-hidden="true"
-                                />{" "}
-                                <span className="text-left">
-                                  NIC Service Desk
-                                  <br />
-                                  <a
-                                    href="/"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    onclick="return confirm('You are being redirected to an external website. Please note that National Informatics Centre cannot be held responsible for external websites content & privacy policies.');"
-                                    aria-label="https://servicedesk.nic.in/ - External site that opens in a new window"
-                                    title="https://servicedesk.nic.in/ - External site that opens in a new window"
-                                  >
-                                    https://helpme.com/
-                                  </a>
-                                </span>
-                              </p>
-                              <p className="servicedesk-img">
-                                <img
-                                  decoding="async"
-                                  src="https://cdnbbsr.s3waas.gov.in/s3dcf6070a4ab7f3afbfd2809173e0824b/uploads/2024/10/202410221795852000.svg"
-                                  alt=""
-                                  aria-hidden="true"
-                                />
-                              </p>
+                              <form>
+                                <div className="form-group">
+                                  <label htmlFor="exampleInputEmail1">Email</label>
+                                  <input
+                                    type="email"
+                                    className="form-control"
+                                    id="exampleInputEmail1"
+                                    aria-describedby="emailHelp"
+                                    placeholder="Enter email"
+                                  />
+                                  <small id="emailHelp" className="form-text text-muted">
+                                    Your Feedback will be delivered to us once you submit.
+                                    
+                                  </small>
+                                </div>
+                                <div className="form-group">
+                                  <label htmlFor="exampleInputs">Message</label>
+                                  <textarea
+                                    
+                                    className="form-control"
+                                    id="exampleInputs"
+                                    placeholder="Write Your Feedback"
+                                  />
+                                </div>
+                               
+                                <button type="submit" className="btn btn-success">
+                                  Submit
+                                </button>
+                              </form>
+
                             </div>
-                            
-                          </div>
-                        </div>
-                      </div>
-                      <div className="wpb_text_column wpb_content_element  vc_custom_1733201261914">
-                        <div className="wpb_wrapper">
-                          <div className="border-radius2">
-                            <p className="d-flex contactline heading5">
-                              <img
-                                decoding="async"
-                                className="contact-icon"
-                                src="https://cdnbbsr.s3waas.gov.in/s3dcf6070a4ab7f3afbfd2809173e0824b/uploads/2024/10/202410221179454387.svg"
-                                alt=""
-                                aria-hidden="true"
-                              />{" "}
-                              <a
-                                href="/employees-directory/"
-                                target="_blank"
-                                rel="noopener"
-                              >
-                                Employees Directory
-                              </a>
-                            </p>
+
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div> */}
+                </div>
               </div>
             </section>{" "}
           </div>
