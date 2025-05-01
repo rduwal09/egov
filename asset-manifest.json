@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/egov/static/css/main.b4ddfc2b.css",
+    "main.css": "/egov/static/css/main.246431c7.css",
     "main.js": "/egov/static/js/main.44fe1994.js",
     "static/js/453.7b44b9fc.chunk.js": "/egov/static/js/453.7b44b9fc.chunk.js",
     "static/media/nepal-govt.png": "/egov/static/media/nepal-govt.03f4cd2e3e1a1dc9e186.png",
@@ -9,12 +9,12 @@
     "static/media/nicccc.jpg": "/egov/static/media/nicccc.1c2f641fc0f95d4b3612.jpg",
     "static/media/logo.svg": "/egov/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/egov/index.html",
-    "main.b4ddfc2b.css.map": "/egov/static/css/main.b4ddfc2b.css.map",
+    "main.246431c7.css.map": "/egov/static/css/main.246431c7.css.map",
     "main.44fe1994.js.map": "/egov/static/js/main.44fe1994.js.map",
     "453.7b44b9fc.chunk.js.map": "/egov/static/js/453.7b44b9fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4ddfc2b.css",
+    "static/css/main.246431c7.css",
     "static/js/main.44fe1994.js"
   ]
 }
