@@ -355,3 +355,7 @@ p:last-child {
     }
    
 }
+#nic{
+    width: 600px;
+    height: 450px;
+}

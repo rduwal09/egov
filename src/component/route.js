@@ -9,8 +9,8 @@ import {
 } from "react-router-dom";
 
 
-import Rajafooter from '../../../../raja/nic/src/component/rajafooter';
-import Rajaheader from '../../../../raja/nic/src/component/rajaheader';
+import Rajafooter from '../component/rajafooter';
+import Rajaheader from '../component/rajaheader';
 import Home from './home';
 
 

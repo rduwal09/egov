@@ -1,5 +1,6 @@
 #mainHeader, .header-wrapper, .megamenu-wraper, #overflowMenu, .banner-wrapper, #footerScrollbarWrapper {
     font-size: 14px;
+    background-color: rgb(38, 17, 84);
 }
 .header-wrapper {
     padding: 12px 0;
@@ -399,4 +400,20 @@ ul li {
 }
 nav.menu {
     justify-items: anchor-center;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+.container li a:hover::after
+{
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: rgb(33, 4, 59);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
 }

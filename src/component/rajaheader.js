@@ -1,4 +1,5 @@
 import React from 'react'
+import nepallogo from "../extra/nepal-govt.png"
 import "../component/rajaheader.css"
 export default function Rajaheader(props) {
     const {scrollTonew, scrollToContact ,scrollToService ,scrollToabout}=props
@@ -17,10 +18,10 @@ export default function Rajaheader(props) {
                                         className="site_logo"
                                         rel="home"
                                     >
-                                        <img
+                                        <img 
                                             className="emblem state-emb"
                                             id="logo"
-                                            src="https://cdnbbsr.s3waas.gov.in/s3dcf6070a4ab7f3afbfd2809173e0824b/uploads/2024/10/20241009217618493.svg"
+                                            src={nepallogo}
                                             alt="NIC logo"
                                         />
                                         <div className="logo_text">
@@ -120,13 +121,13 @@ export default function Rajaheader(props) {
                                     id="menu-item-9329"
                                     className="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-9329 active "
                                 >
-                                    <a style={{color:" #6a5de6",fontSize:"20px",fontWeight:"600"}} href="/egov/">Home</a>
+                                    <a style={{color:"aliceblue",fontSize:"20px",fontWeight:"600"}} href="/egov/">Home</a>
                                 </li>
                                 <li
                                     id="menu-item-4982"
                                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4982 has-sub"
                                 >
-                                    <a style={{color:" #6a5de6",fontSize:"20px",fontWeight:"600"}} onClick={scrollToabout} aria-haspopup="true" aria-expanded="false">
+                                    <a style={{color:"aliceblue",fontSize:"20px",fontWeight:"600"}} onClick={scrollToabout} aria-haspopup="true" aria-expanded="false">
                                         About Us
                                         <span className="indicator" />
                                     </a>
@@ -136,7 +137,7 @@ export default function Rajaheader(props) {
                                     id="menu-item-5005"
                                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5005 has-sub"
                                 >
-                                    <a style={{color:" #6a5de6",fontSize:"20px",fontWeight:"600"}} onClick={scrollToContact} aria-haspopup="true" aria-expanded="false">
+                                    <a style={{color:"aliceblue",fontSize:"20px",fontWeight:"600"}} onClick={scrollToContact} aria-haspopup="true" aria-expanded="false">
                                         Contact
                                         <span className="indicator" />
                                     </a>
@@ -146,7 +147,7 @@ export default function Rajaheader(props) {
                                     id="menu-item-5013"
                                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5013 has-sub"
                                 >
-                                    <a style={{color:" #6a5de6",fontSize:"20px",fontWeight:"600"}}  onClick={scrollTonew} aria-haspopup="true" aria-expanded="false">
+                                    <a style={{color:"aliceblue",fontSize:"20px",fontWeight:"600"}}  onClick={scrollTonew} aria-haspopup="true" aria-expanded="false">
                                         News
                                         <span className="indicator" />
                                     </a>
@@ -155,7 +156,7 @@ export default function Rajaheader(props) {
                                     id="menu-item-5010"
                                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5010 has-sub"
                                 >
-                                    <a style={{color:" #6a5de6",fontSize:"20px",fontWeight:"600"}} onClick={scrollToService} aria-haspopup="true" aria-expanded="false">
+                                    <a style={{color:"aliceblue",fontSize:"20px",fontWeight:"600"}} onClick={scrollToService} aria-haspopup="true" aria-expanded="false">
                                         Services
                                         <span className="indicator" />
                                     </a>
